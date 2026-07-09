@@ -85,3 +85,32 @@ nav{
     justify-content: center;
     text-align: center;
 }
+    
+#c{
+    margin-left:90%;
+    background-color:white;
+    color:black;
+}
+#d{
+    background-color: white;
+    color:navy;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+i{
+    color:darkorchid;
+}
+.fa-youtube{
+    color:red;
+}
+.fa-face-smile
+{
+    color:yellow;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
