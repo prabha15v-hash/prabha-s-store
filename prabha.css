@@ -1,0 +1,87 @@
+h1{
+    color:aquamarine;
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 7px 7px 5px blue;
+    font-size:100px;
+    animation-name: my;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+}
+@keyframes my{
+    from{text-shadow:7px 7px 5px blue;}
+    to{text-shadow:7px 7px 5px red;}
+}
+h2{
+    color:navy;
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+    
+}
+body{
+    background-image:url('beach1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+p{
+    color:white;
+}
+#home{
+    margin-right:100%;
+    padding-right: 70px;;
+}
+button{
+    background-color:darkmagenta;
+    color:azure;
+    margin-bottom: 20px;
+    padding: 40px;
+    font-size:40px;
+    font-style:;
+    
+}
+#c{
+    margin-left:90%;
+    background-color:white;
+    color:black;
+}
+#d{
+    background-color: white;
+    color:navy;
+    padding: 3px;
+    margin-top: 50px;
+    font-size: 10px;
+}
+#sign{
+    margin-left:100%;
+     background-color: white;
+     color:black;
+     padding-right:20px;
+     top:100%;
+     left:100%;
+
+}
+@keyframes  myAnimation{
+    from{background-image:url('beach1.jpg') ;}
+    to{background-image:url('nature1.jpg');}
+}
+i{
+    color:darkorchid;
+}
+.fa-youtube{
+    color:red;
+}
+.fa-face-smile
+{
+    color:yellow;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
