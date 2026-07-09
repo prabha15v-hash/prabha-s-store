@@ -102,15 +102,31 @@ nav{
 i{
     color:darkorchid;
 }
-.fa-youtube{
-    color:red;
+
+.fa-shop{
+    color:aqua;
 }
-.fa-face-smile
-{
-    color:yellow;
+.fa-guitar{
+    color:crimson;
+
 }
-nav{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.fa-cart-shopping{
+    color:blue;
+}
+.fa-gamepad{
+    color: lawngreen;
+
+}
+.fa-chess{
+    color:white;
+}
+.fa-music{
+    color: navy;
+}
+
+.fa-bus-side{
+    color:violet;
+}
+.fa-house{
+    color:darkorchid;
 }
